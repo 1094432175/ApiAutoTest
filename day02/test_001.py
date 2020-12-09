@@ -27,7 +27,7 @@ def test_register_002():
 def test_register_003():
     data = {"mobilephone":"13821111114","pwd":"1234567890098765432"}
     r = requests.post(url,data=data)
-    assert r.json()['msg']=="密码长度必须为6~1"
+    assert r.json()['msg']=="密码长度必须为6~18"
 
 
 
