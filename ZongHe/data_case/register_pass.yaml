@@ -1,0 +1,16 @@
+# 注册成功的数据放register_pass.yaml
+# 注册失败的数据放register_fail.yaml
+
+- data: {"mobilephone": "17795722362","pwd": "123456"}
+  expect: {"code": "10001","data": {},"msg": "注册成功","status": 1}
+
+- data: {"mobilephone": "17795732362","pwd": "123456789009876543"}
+  expect: {"code": "10001","data": {},"msg": "注册成功","status": 1}
+
+
+
+
+
+
+
+
